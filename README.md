@@ -14,6 +14,9 @@ An Agentic AI pipeline for automated GF-180nm analog design. It replaces blind S
 *   **[Watch Demonstration Video 1 (Google Drive)](https://drive.google.com/file/d/1A9Ipviedc0UiwP3iHwZS3PEYmZnQ8Asy/view?usp=drive_link)**
 *   **[Watch Demonstration Video 2 (Google Drive)](https://drive.google.com/file/d/17oWXzNKuh1HhPyUddlh5OyucWhQjy8jb/view?usp=drive_link)**
 *   **[Watch Demonstration Video 3 (Google Drive)](https://drive.google.com/file/d/1bdhUjFpRPiOOtSaCCRv7zKWV2MW79WOy/view?usp=drive_link)**
+
+### Presentation Slides
+* [View / Download Master's Thesis Presentation (Google Drive)](https://docs.google.com/presentation/d/1eiyvj31yI5EEfb46rbOjL0oEURz9xamr/edit?usp=drive_link&ouid=112232044318207565905&rtpof=true&sd=true)
 ---
 
 ## Project Overview
