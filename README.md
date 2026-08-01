@@ -36,3 +36,15 @@ The system prevents AI models from wasting tokens on blind trial-and-error by br
 ## Future Roadmap
 *   **Native Python Simulator (PyTorchSim):** Modeling transistors as neural networks directly inside Python to bypass the heavy I/O overhead of writing and reading external SPICE netlists.  
 *   **Local Multi-Agent Orchestration:** Transitioning from proprietary cloud IDEs to a localized environment built on LangChain and LangGraph. This will utilize local open-source models (like Qwen or Gemma) to remove context-window limitations and manage specialized tasks like topology architecture and dynamic step-size optimization.
+
+
+
+## Copyright & License
+
+© 2026 Mohamed Khaled Ezzeldin. All Rights Reserved.
+
+This repository and its contents represent original academic research and development developed for a Master's thesis. Unauthorized reproduction, modification, distribution, or commercial use of this code, methodology, or documentation without explicit written permission is strictly prohibited.
+
+
+
+
