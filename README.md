@@ -26,7 +26,7 @@ The project focuses on Agentic Analog Circuit Optimization, specifically automat
 The system prevents AI models from wasting tokens on blind trial-and-error by breaking the design process into three distinct phases:  
 
 *   **Phase 1: Initial Sizing ($g_m/I_D$ Methodology):** A mid-level reasoning model (Gemini Flash) is paired with a custom Python `LUT_FinderAgent`. The AI determines the high-level methodology, while the Python tool handles precise parameter lookups to generate a highly accurate initial design point ($\vec{x}_{init}$).  
-*   **Phase 2: Mathematical Optimization:** The initial design is passed to a Genetic Algorithm (GA). A Python circuit wrapper translates the circuit topology into a pure mathematical mapping of inputs to outputs ($\vec{y} = f(\vec{x})$). The GA then minimizes a custom, multi-part loss function to hit performance targets without relying on the LLM.  
+*   **Phase 2: Mathematical Optimization:** The initial design is passed to a Genetic Algorithm (GA). A Python circuit wrapper translates the circuit topology into a pure mathematical mapping of inputs to outputs $\vec{y} = f(\vec{x})$. The GA then minimizes a custom, multi-part loss function to hit performance targets without relying on the LLM.  
 *   **Phase 3: Heuristic Fine-Tuning (The "Senior Designer"):** If the optimizer reaches its simulation limit without hitting all constraints, an advanced reasoning model (Gemini Pro) takes over. It evaluates a heuristic trade-offs map to make smart, system-level adjustments—such as tuning the tail current source width ($W_{ss}$) to increase Unity Gain Frequency (UGF) or lower power consumption ($P_W$) while keeping the Phase Margin (PM) stable.  
 
 ## Key Technical Innovations
